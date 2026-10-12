@@ -1,0 +1,19 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "build-and-run-normal",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"gcc normal.c -o normal.exe && normal.exe"
+			],
+			"isBackground": false,
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build"
+		}
+	]
+}
